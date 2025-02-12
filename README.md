@@ -1,44 +1,44 @@
-# Sample Classifier
+# Classificador de Amostras
 
-This script allows users to view and classify images into different categories, moving them to specific folders. The interface is developed in Python using the Tkinter library.
+Este script permite visualizar e classificar imagens em diferentes categorias, movendo-as para pastas específicas. A interface foi desenvolvida em Python usando a biblioteca Tkinter.
 
-## Features
-- Loads images from a defined folder.
-- Classifies images as "Approved," "Rejected," or "Uncertain."
-- Navigates through images.
-- Zoom and pan functionality.
-- Keyboard shortcuts for quick classification.
+## Funcionalidades
+- Carregamento de imagens a partir de uma pasta definida.
+- Classificação das imagens como "Aprovada", "Reprovada" ou "Dúvida".
+- Navegação entre as imagens.
+- Zoom e movimentação da imagem.
+- Atalhos de teclado para facilitar a classificação.
 
-## Requirements
+## Requisitos
 - Python 3.x
-- Required libraries:
+- Bibliotecas necessárias:
   - `Pillow`
   - `tkinter`
 
-## Project Structure
-The script scans for images in the folder specified by the `pasta_amostras` variable and displays an interface for classification. Classified images are moved to their respective subfolders.
+## Estrutura do Projeto
+O script procura imagens na pasta definida na variável `pasta_amostras` e exibe uma interface para classificação. As imagens são movidas para subpastas de acordo com a classificação.
 
-## How to Use
-1. Set the image folder path in the `pasta_amostras` variable.
-2. Run the script.
-3. Choose the initial image.
-4. Use buttons or keyboard shortcuts to classify images.
-5. Classified images will be moved to their corresponding folders.
+## Como Usar
+1. Defina a pasta de imagens na variável `pasta_amostras`.
+2. Execute o script.
+3. Escolha a imagem inicial.
+4. Use os botões ou atalhos para classificar as imagens.
+5. As imagens classificadas serão movidas para suas respectivas pastas.
 
-## Controls
-- `A`: Classifies as "Approved"
-- `R`: Classifies as "Rejected"
-- `D`: Classifies as "Uncertain"
-- `→`: Moves to the next image
-- `←`: Moves to the previous image
-- Mouse scroll: Zoom in/out
-- Click and drag: Moves the image within the view
+## Controles
+- `A`: Classifica como "Aprovada"
+- `R`: Classifica como "Reprovada"
+- `D`: Classifica como "Dúvida"
+- `→`: Avança para a próxima imagem
+- `←`: Retorna para a imagem anterior
+- Scroll do mouse: Zoom in/out
+- Clique e arraste: Move a imagem na tela
 
-## Future Improvements
-- Add support for undoing the last classification.
-- Enhance the graphical interface with more visual options.
-- Store a log of all classifications made.
+## Melhorias Futuras
+- Adicionar suporte para desfazer a última classificação.
+- Melhorar a interface gráfica com mais opções visuais.
+- Armazenar um log das classificações realizadas.
 
 ---
 
-This project was developed to facilitate the organization and review of sample images.
+Este projeto foi desenvolvido para facilitar a organização e revisão de imagens de amostras.
