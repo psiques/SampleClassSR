@@ -16,7 +16,7 @@ start_y = 0
 amostra_atual = 0
 
 # Configuração inicial
-pasta_amostras = "C:/SCCON/AMOSTRAS_CLASSIFIC/v1_c04_3589/w_mask_w_poly"  # Substitua pelo caminho correto
+pasta_amostras = "Caminho/para/pasta"  # Substitua pelo caminho correto
 amostras = [os.path.join(pasta_amostras, f) for f in sorted(os.listdir(pasta_amostras)) if f.lower().endswith(('.png', '.jpg', '.jpeg', '.tiff', '.bmp', '.gif'))]
 
 # Solicitar o número da imagem iniciala
